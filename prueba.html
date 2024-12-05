@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web con Navegación Responsive</title>
+    <link rel="stylesheet" href="/estilo/prueba.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">Mi Logo</div>
+            <ul class="nav-links">
+                <li><a href="#section1">Inicio</a></li>
+                <li><a href="#section2">Sobre Nosotros</a></li>
+                <li><a href="#section3">Servicios</a></li>
+                <li><a href="#section4">Portafolio</a></li>
+                <li><a href="#section5">Testimonios</a></li>
+                <li><a href="#section6">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="section1">Inicio</section>
+    <section id="section2">Sobre Nosotros</section>
+    <section id="section3">Servicios</section>
+    <section id="section4">Portafolio</section>
+    <section id="section5">Testimonios</section>
+    <section id="section6">Contacto</section>
+
+    <script src="script.js">
+
+// Cambia el color del navbar al hacer scroll
+window.addEventListener("scroll", () => {
+    const navbar = document.getElementById("navbar");
+    if (window.scrollY > 50) {
+        navbar.classList.add("active");
+    } else {
+        navbar.classList.remove("active");
+    }
+});
+
+// Menú responsive
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
+
+    </script>
+</body>
+</html>
