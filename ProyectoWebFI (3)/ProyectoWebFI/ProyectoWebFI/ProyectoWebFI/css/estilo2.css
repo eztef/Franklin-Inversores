@@ -1,0 +1,402 @@
+ /* Efecto de scroll suave */
+
+ html {
+    scroll-behavior: smooth;
+    
+}
+
+/* Estilo básico para el body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../components/imagenes/1.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+     
+}
+ .img2{
+    margin-right: 50%;
+ }
+.img3{
+    position: absolute;
+    margin-right: 80%;
+}
+
+.espacio{
+    background-color: #ffffff00;
+    max-height: fit-content;
+    margin-bottom: 15%;
+
+}
+  
+.Lema{
+    margin-top: 30%;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-family: "Bebas Neue", sans-serif ;
+    font-size: 30px;
+    color: #2a2727;
+
+}
+.slogan {
+left: 30px;
+
+}
+.section6{
+    top: -0%;
+}
+/* Estilos del cuerpo */
+#cartas {
+    padding: 60px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 100vh; 
+    position: relative;
+}
+
+
+.section1 { background-color: #ffffff;  } 
+.section2 { background-color: #f7f6f6;  }
+.section3 { background-color: #d3d6e6;  } 
+.section4 {
+    
+    height: 750px;
+    background-color: #bec8d3;  } 
+    
+.section5 { background-color: #aab8cc;  
+        bottom: 0%;
+        margin: 0%;
+        
+       
+} 
+
+.section6 { background-color: #8297b5;  
+height: fit-content;
+top: 30%;
+
+} 
+
+
+
+/*estilos de las cajas */
+.img3{
+    position: absolute;
+    left: 150%;
+    bottom: 7%;
+}
+.img4{
+    position: absolute;
+    left: 66%;
+    bottom: 25%;
+    size: 30%;
+}
+
+.img5{
+    position: absolute;
+    left: 64%;
+    right: 40%;
+    bottom: 15%;
+}
+.img6{
+    position: absolute;
+    left: 0%;
+
+    right: 64%;
+    bottom: 15%;
+    height: 76%;
+}
+
+.servicio1{
+    position: relative;
+    top: 20%;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif ;
+    font-size: 60px;
+}
+.Vision, .mision, .Valore{
+    
+    position: relative; /* Coloca la caja encima del section */
+    top: 10px; /* Ajusta la posición superior */
+    right: 10px; /* Ajusta la posición derecha */
+    width: 45%;
+    height: 60%;
+    margin-right: 2%;
+    margin-top: 6%;
+    border-radius:10px;
+    color:rgb(0, 0, 0);
+    font-family: "Bebas Neue", sans-serif ;
+    background-color: rgba(67, 86, 139, 0);
+}
+
+.servicio{
+    
+    position: absolute; /* Coloca la caja encima del section */
+     /* Ajusta la posición superior */
+    right: 1px; /* Ajusta la posición derecha */
+    width: 50%;
+    height: 77%;
+    color:rgb(242, 238, 238);
+    font-family: "Roboto", sans-serif ;
+    top: 9%;
+    font: 100;
+    background-color: rgb(53, 67, 110);
+}
+
+.Valore{
+    
+    position: relative; /* Coloca la caja encima del section */
+    top: 10px; /* Ajusta la posición superior */
+    right: 10px; /* Ajusta la posición derecha */
+    width: 45%;
+    height:700px;
+    margin-right: 2%;
+    margin-top: 6%;
+    border-radius:10px;
+    color:rgb(17, 15, 29);
+   
+    background-color: #4d5d8900;
+    font-family: "Bebas Neue", sans-serif ;
+}
+
+.Quienes_Somos{
+    
+    position: absolute; /* Coloca la caja encima del section */
+    top: 10px; /* Ajusta la posición superior */
+    right: 10px; /* Ajusta la posición derecha */
+    width: 45%;
+    height: 73%;
+    margin-right: 2%;
+    margin-top: 6%;
+    border-radius:10px;
+    color:rgb(0, 0, 0);
+    font-family:'Aptos';
+    background-color: #ffffffe7;
+    font-family: "Bebas Neue", sans-serif ;
+}
+
+/*estilos de los párrafos*/
+
+.Vision p, .mision p, .Valore p, .servicio p, .Quienes_Somos p{
+    font-family: "Bebas Neue", sans-serif ;
+    font-size:25px;
+    Margin:20px auto;
+    padding:20px;
+    font-size:25px;
+    text-align:justify;
+
+}
+
+/*estilos de los títulos*/
+
+.titulo{
+    
+    font-size:40px;
+    margin-top:10vh;
+    font-family: "Bebas Neue", sans-serif ;
+    text-align:center;
+
+
+}
+
+
+.formulario {
+    position: absolute; /* Coloca la caja encima del section */
+    top: 0px; /* Ajusta la posición superior */
+    right: 0px; /* Ajusta la posición derecha */
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+/*....................................Footer..................................................*/
+
+footer {
+    background-color:#e8ceb0 ;
+    display: flex;
+    position: relative;
+    height: 200px;
+    margin-top: -10%;
+    color: white;
+
+}
+
+.ubi{
+    position: relative;
+    top: 25px;
+    left: 70px;
+    height: 150px;
+    width: 300px;
+    
+}
+
+.ubi h2{
+    font-size: 25px;
+}
+
+.ubi p{
+  padding: 10px;
+}
+
+.redes{
+    position: relative;
+    top: 25px;
+    left: 160px;
+    height: 150px;
+    width: 300px;
+    left: 25%;
+}
+
+.redes h2{
+    font-size: 25px;
+}
+
+.redes img{
+    height: 50px;
+    margin-left: 65px;
+    left: 30%;
+}
+
+.contactos{
+    position: relative;
+    top: 25px;
+    left: 25%;
+    height: 150px;
+    width: 300px;
+    
+}
+
+.contactos h2{
+    font-size: 25px;
+}
+
+
+/* Estilo del menu */
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+   
+   margin-top: -10px;
+   margin-bottom: -15px;
+   
+   box-shadow: #d3d6e6;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+#navbar.scrolled {
+    background-color: #ffffff;
+    
+}
+
+
+
+#navbar .logo {
+    color: rgb(127, 135, 163);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+   margin-left: 500px;
+   margin-top: 60px;
+}
+
+#navbar nav ul li a {
+    text-decoration: none;
+    color: rgb(21, 18, 25);
+    font-size: 22px;
+    transition: color 0.6s ease;
+    padding: 16px;
+    background-color: #0d1b3139;
+
+    border-radius: 1%;
+ 
+}
+
+#navbar nav ul li a:hover {
+    color: #b1b4c5; 
+    background-color: #2a2727;
+
+}
+
+.logo{
+    width: 30%;
+    margin-bottom: -15px;
+    margin-left: 20px;
+    margin-top: 2px;
+    
+}
+.sabermas{
+    background-color: #222b51;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif ;
+    color: #ffffff;
+    align-content: center;
+    width: fit-content;
+   
+    padding: 10px;
+    height:max-content;
+    left: 71%;
+    top: 60%;
+    border-radius: 2%;
+    transition: color 0.5s ease
+    
+
+
+}
+.sabermas:hover{
+    background-color: #ffffff;
+    color: #222b51;
+}
+
+.unirse{
+    background-color: #f0f0f0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    color: #ffffff;
+    left: 45%;
+    padding: 10px;
+    border-radius: 2%;
+    font-family: "Roboto", sans-serif ;
+    transition: color 0.5s ease, border-radius 0.5s ease;
+    text-decoration:none;
+    color:white;
+}
+.unirse:hover{
+    background-color: #212a51;
+    color: #8a8b91;
+    border-radius:20px;
+    color:white ;
+}
+
+/* Espaciador superior para evitar que las secciones queden ocultas por la barra de navegación */
+.espacio {
+    height: 768px;
+}
+
+
+/*RESPOSIVE*/
+@media (max-with: 412px){
+    body {
+        background-image: url(//components/imagenes/responsive.png);
+        background-size: cover;
+    }
+    
+}

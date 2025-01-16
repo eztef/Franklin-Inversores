@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+header{
+    position: fixed;
+    top: 10px;
+    left: 10%;
+    width: 80%;
+    height: 110px;
+    background: white;
+    margin: -10px;
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: -15px;
+    left: 50px;
+}
+
+.logo{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    left: 80px;
+
+}
+
+.logo h1{
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+
+.menu{
+    height: 100px;
+    left: 10%;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    padding-top: -10px;
+    padding-bottom: -10px;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: -10%;
+    padding-bottom: -10%;
+   
+}
+
+.menu-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    top:0 ;
+    background: blue;
+    position: absolute;
+    left: 0;
+
+}
+
+
+.menu nav ul li a{
+    color:#8476ff;
+    
+}
+
+.menu nav ul li a:hover{
+    color: blue;
+    transition: color 300ms;
+}
+
+ .menu .text-menu-selected{
+    color: blue;
+}
+
+
+
+ /* Efecto de scroll suave */
+
+ html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo básico para el body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/ProyectoWebFI/ProyectoWebFI/ProyectoWebFI/img/Inicio.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+   
+    
+}
+
+/* Estilos del cuerpo */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 100vh; 
+    position: relative;
+}
+
+
+.section1 { background-color: #22333B;  } 
+.section2 { background-color: #b08968;  }
+.section3 { background-color: #b08968;  } 
+.section4 {
+    
+    height: 750px;
+    background-color: #b08968;  } 
+.section5 { background-color: #0f191d; 
+ height: 650px; } 
+.section6 { background-color: #22333b;  
+height: 500px;
+
+
+} 
+
+
+/*estilos de las cajas */
+.Lema  {
+ position: absolute;
+ top: 60%;
+ background-color: #c6ac8f;
+ color: white;
+ width: 100%;
+ height: 60px;
+ padding-top: 30px;
+ align-items: center;
+ justify-content: center;
+ 
+ 
+}
+
+
+.Vision, .mision, .Valore{
+    
+    position: absolute; /* Coloca la caja encima del section */
+    top: 10px; /* Ajusta la posición superior */
+    right: 10px; /* Ajusta la posición derecha */
+    width: 45%;
+    height: 60%;
+    margin-right: 2%;
+    margin-top: 6%;
+    border-radius:20px;
+    color:black;
+    font-family:'Aptos';
+    background-color: #EAE0D5;
+}
+
+.servicio{
+    
+    position: absolute; /* Coloca la caja encima del section */
+    top: 10px; /* Ajusta la posición superior */
+    right: 10px; /* Ajusta la posición derecha */
+    width: 45%;
+    height: 5%;
+
+}
+
+.Valore{
+    
+    position: absolute; /* Coloca la caja encima del section */
+    top: 10px; /* Ajusta la posición superior */
+    right: 10px; /* Ajusta la posición derecha */
+    width: 45%;
+    height:700px;
+    margin-right: 2%;
+    margin-top: 6%;
+    border-radius:20px;
+    color:black;
+    font-family:'Aptos';
+    background-color:#EAE0D5;
+}
+
+.Quienes_Somos{
+    
+    position: absolute; /* Coloca la caja encima del section */
+    top: 7%; /* Ajusta la posición superior */
+    right: 20px; /* Ajusta la posición derecha */
+    width: 48%;
+    height: 55%;
+    margin-right: 2%;
+    margin-top: 6%;
+    border-radius:25px;
+    color:rgb(0, 0, 0);
+    font-family:'Aptos';
+    background-color: #eae0d5;
+    font-family: "Bebas Neue", sans-serif ;
+    opacity: 0.8;
+    
+}
+
+
+.img-somos {
+    position: relative;
+    width: 60%;
+    height: 80%;
+    left: -20%;
+    top: 5%;
+}
+
+.img-mision {
+position: relative;
+left: -20%;
+top: 5%;
+}
+
+.img-vision {
+position: relative;
+left: -20%;
+top: 12%;
+
+}
+.img-valore {
+position: relative;
+left: -20%;
+top: 20%;}
+
+.gif-servicio {
+    position: relative;
+   left: -33%;
+   width: 70%;
+   height: 60%;
+  top: -60px;
+}
+
+
+.Mas {
+     /* Asegura que se comporte como un botón */
+    padding: 10px 20px; /* Espacio interno para el botón */
+    background-color: #b08968; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 25px; /* Hace que los bordes sean redondeados */
+    border: none; /* Sin bordes adicionales */
+    font-size: 25px; /* Tamaño de la fuente */
+    cursor: pointer; /* Muestra el cursor de mano al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave para el efecto hover */
+    position: relative;
+    top: 300px;
+    width: 30%;
+    height: 150%;
+   
+    align-items: center;
+    justify-content:cen ;
+}
+
+.Mas:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor por encima */
+}
+
+.unirse {
+    background-color: #b08968;
+    position: relative;
+    width: 53%;
+ top: -60px;
+    height: 750px;
+    left: -20px;
+    
+   
+}
+
+.uni{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    font-size: 40px;
+}
+.unir {
+    position: absolute;
+    left: 58%;
+    top: -10px;
+}
+
+.Registrate {
+    position: relative;
+    right: 15px;
+    top: 450px;
+    width: 250px;
+    height: 70px;
+      /* Asegura que se comporte como un botón */
+ 
+      background-color: #b08968; /* Color de fondo del botón */
+      color: white; /* Color del texto */
+      text-decoration: none; /* Elimina el subrayado */
+      border-radius: 25px; /* Hace que los bordes sean redondeados */
+      border: none; /* Sin bordes adicionales */
+      font-size: 25px; /* Tamaño de la fuente */
+      cursor: pointer; /* Muestra el cursor de mano al pasar por encima */
+      transition: background-color 0.3s ease; /* Transición suave para el efecto hover */
+     
+    
+     
+      
+}
+
+
+
+/*estilos de los párrafos*/
+
+.Vision p, .mision p, .Valore p, .servicio p, .Quienes_Somos p{
+    font-family:'SUSE';
+    font-size:25px;
+    Margin:20px auto;
+    padding:20px;
+    font-size:25px;
+    text-align:justify;
+
+}
+
+
+.titulo{
+    
+    font-size:40px;
+    margin-top:10vh;
+    font-family:'Aptos';
+    text-align:center;
+
+
+}
+
+.servi{
+    position: relative;
+    font-size:40px;
+    top: 250px;
+    font-family:'Aptos';
+    text-align:center;
+    color: white;
+
+}
+
+
+
+/*....................................Footer..................................................*/
+
+footer {
+    background-color:#0f191d ;
+    display: flex;
+    position: relative;
+    height: 200px;
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+    
+
+}
+ .logo2 {
+    position: relative;
+ }
+
+.ubi{
+    position: relative;
+    top: 25px;
+    left: 70px;
+    height: 100px;
+    width: 300px;
+    
+}
+
+.ubi h2{
+    font-size: 25px;
+}
+
+.ubi p{
+  padding: 10px;
+}
+
+.redes{
+    position: relative;
+    top: 25px;
+    left: 160px;
+    height: 150px;
+    width: 300px;
+    
+}
+
+.redes h2{
+    font-size: 25px;
+}
+
+.redes img{
+    top: 20px;
+    height: 50px;
+    margin-left: 65px;
+}
+
+.contactos{
+    position: relative;
+    top: 25px;
+    left: 200px;
+    height: 150px;
+    width: 300px;
+    
+}
+
+.contactos h2{
+    font-size: 25px;
+}
+
+.espacio {
+    height: 768px;
+}
+
+
+
+
+/*RESPONSIVE */
+/*del cuerpo*/
+/* Responsivo para pantallas más pequeñas (tablets y móviles) */
+@media (max-width: 768px) {
+    header {
+        left: 0;
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .logo {
+        width: auto;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .logo h1 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu nav ul li {
+        margin: 5px 0;
+    }
+
+    /* Ajuste para secciones */
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Quienes_Somos, .mision, .Vision, .Valore {
+        width: 90%;
+        height: auto;
+        position: static; /* Colocarlo de forma normal en el flujo */
+        margin: 20px auto;
+    }
+
+    .Lema {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+        padding: 15px;
+    }
+
+    .img-somos, .img-mision, .img-vision, .img-valore, .gif-servicio {
+        width: 80%;
+        height: auto;
+        left: 0;
+        top: 0;
+        margin: 10px auto;
+    }
+
+    .servicio {
+        width: 90%;
+        height: auto;
+        position: static;
+        margin: 20px auto;
+    }
+
+    .Mas {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .unirse, .unir {
+        width: 90%;
+        height: auto;
+        position: static;
+        margin: 20px auto;
+    }
+
+    .Registrate {
+        width: 80%;
+        height: auto;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .uni {
+        font-size: 30px;
+    }
+
+    /* Ajustes para el footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .ubi, .redes, .contactos {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .redes img {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+    }
+
+    .menu nav ul li {
+        margin: 5px 0;
+    }
+
+    .img-somos, .img-mision, .img-vision, .img-valore, .gif-servicio {
+        width: 100%;
+        height: auto;
+    }
+
+    .Mas, .Registrate {
+        width: 90%;
+    }
+}
+
+/* Estilos generales para imágenes y contenedores */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.espacio {
+    margin-top: 20px;
+}
+
+.titulo {
+    font-size: 1.5rem; /* Tamaño de fuente flexible */
+}
+
+p {
+    font-size: 1rem; /* Ajusta el tamaño del texto */
+    line-height: 1.5;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; /* Para centrar el texto en pantallas pequeñas */
+}
+
+.Quienes_Somos, .mision, .Vision, .Valore, .servicio, .unirse {
+    flex: 1 1 100%; /* Los textos ocupan todo el ancho en móviles */
+    margin: 20px;
+}
+
+/* Media queries para pantallas medianas */
+@media screen and (min-width: 768px) {
+    .section1, .section2, .section3, .section4, .section5, .section6 {
+        flex-direction: row;
+        text-align: left; /* Vuelve el texto a su alineación normal */
+    }
+
+    .Quienes_Somos, .mision, .Vision, .Valore, .servicio, .unirse {
+        flex: 1 1 50%; /* Los textos ocupan la mitad del ancho en tablets */
+    }
+}
+
+/* Media queries para pantallas grandes */
+@media screen and (min-width: 1024px) {
+    .section1, .section2, .section3, .section4, .section5, .section6 {
+        flex-direction: row;
+    }
+
+    .Quienes_Somos, .mision, .Vision, .Valore, .servicio, .unirse {
+        flex: 1 1 45%; /* Los textos ocupan menos ancho en pantallas grandes */
+    }
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.Mas, .Registrate {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+}
+
+.Mas:hover, .Registrate:hover {
+    background-color: #003d82;
+}
+
+/* Ajustes para el footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+footer img {
+    max-width: 50px;
+}
+
+.ubi, .redes, .contactos {
+    text-align: center;
+    margin: 10px;
+}

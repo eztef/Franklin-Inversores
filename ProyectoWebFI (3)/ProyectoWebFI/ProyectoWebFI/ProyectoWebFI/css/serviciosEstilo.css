@@ -1,0 +1,465 @@
+html {
+	scroll-behavior: smooth;
+}
+/* menu hamburguesa */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	background-size: cover;
+	
+}
+
+/*pa los seccion*/
+#cartas{
+padding: 60px 20px;
+    text-align: center;
+    color: #C6AC8F;
+    height: 100vh; 
+    position: relative;
+}
+
+
+
+
+.container{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #22333B;
+	background-size: cover;
+	background-position: 50% 36%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #22333B;
+}
+
+.content{
+	position: relative;
+    max-width: 700px;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.content h2{
+	color: #C6AC8F;
+	font-family: "Dancing Script", cursive;
+	font-size: 4.3rem;
+	margin-bottom: 0.8rem;
+}
+.about h2{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	padding-bottom: 1.2rem;
+}
+
+.content p{
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+.btn{
+	padding: 0.75rem 1.25rem;
+	text-transform: uppercase;
+	color: #EAE0D5;
+	font-weight: 550;
+	font-size: 1.1rem;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	background-color: #111111;
+	display: flex;
+	margin-top: .8rem;
+	cursor: pointer;
+	transition: .3s;
+	justify-content: center;
+  align-items: center; 
+}
+
+.btn:hover{
+	opacity: 0.8;
+}
+
+/* tarjetas del body */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
+body{
+	
+	background: #22333B;
+    color: #fff;
+	height: 100%;
+}
+.wrapper{
+    padding: 10px 10%;
+}
+#card-area{
+    padding: 50px 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.box {
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px #3c5662;
+}
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.overlay {
+	width: 100%;
+	height: 0;
+	background: linear-gradient(transparent,#22333B 58%);
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	font-size: 14px;
+	transition: height 0.5s;
+}
+.overlay h3 {
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-top: 80%;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.overlay a {
+	margin-top: 10px;
+	color: #262626;
+	text-decoration: none;
+	font-size: 14px;
+	background: #fff;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px 15px;
+}
+.box:hover img{
+    transform: scale(1.1);
+}
+.box:hover .overlay{
+    height: 100%;
+}
+
+/* seccion de descripcion del coso de los trabajos aja*/
+
+.about{
+    background: no-repeat left;
+    background-size: 55%;
+    background-color: #5E503F;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.cajita{
+    width: 100%;
+    float: right;
+    background-color: #EAE0D5;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+}
+.cajita h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+	color: #262626;
+}
+.text{
+    font-size: 13px;
+    color: #5E503F;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #22333B;
+    color: #EAE0D5;
+    cursor: pointer;
+}
+.skills button a{
+ text-decoration: none;
+ color: #EAE0D5;
+}
+.skills button:hover{
+    transition: 1s;
+    background-color: #39637c;
+    color: #ffffff;
+}
+
+
+
+
+/*footer*/
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+header h2 {
+    color: #5E503F;
+}
+
+header span {
+    color: #C6AC8F;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: relative;
+    bottom: 0;
+	
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #4f7b80;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    
+    
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #4f7b80;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #EAE0D5;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #EAE0D5;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #586b73;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #4b5f68;
+}
+
+.footer-links a:hover {
+    color: #4b5f68;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}       
+        
+
+        
+
+/* EL RESPONSIVE DIANA*/
+
+@media screen and (max-width:1200px){
+    .cajita{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .cajita{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .cajita{
+        padding: 60px;
+    }
+   
+}
+
+
